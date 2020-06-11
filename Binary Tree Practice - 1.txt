@@ -18,6 +18,8 @@ void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub );
 void MakeRightSubTree(BTreeNode * main, BTreeNode * sub );
 void Print(BTreeNode * bt);
 
+
+//main function
 int main(void){
     int n = 0;
     BTreeNode * f1 = MakeBTreeNode(); // Create Node f1
